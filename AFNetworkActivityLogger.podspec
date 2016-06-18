@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'AFNetworking 2.0 Extension for Network Request Logging'
   s.homepage = 'https://github.com/AFNetworking/AFNetworkActivityLogger'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFNetworkActivityLogger.git', :tag => s.version }
+  s.source   = { :git => 'https://github.com/acerbetti/AFNetworkActivityLogger.git', :tag => s.version }
   s.source_files = 'AFNetworkActivityLogger'
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking/NSURLSession', '~> 2.0'
   s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
+  s.dependency 'CocoaLumberjack', '> 2.0'
 end
